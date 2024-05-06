@@ -24,6 +24,17 @@
                 "--outdir=scanned",
             ],
             "console": "integratedTerminal"
+        },
+        {
+            "name": "print",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "print.py",
+            "args": [
+                "--dir=scanned",
+                "--outfile=conjuring_philip.pdf",
+            ],
+            "console": "integratedTerminal"
         }
     ]
 }

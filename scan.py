@@ -3,7 +3,7 @@ import time
 import click
 from tqdm import tqdm
 import pyautogui
-from PIL import ImageGrab, Image
+from PIL import ImageGrab
 
 
 def parse_coordinates(s: str) -> tuple[int]:
