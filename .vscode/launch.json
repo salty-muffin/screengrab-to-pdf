@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "scan",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "scan.py",
+            "args": [
+                "--nextpos=1684,1068",
+                "--offpos=1820,420",
+                "--screenrect=1190,209,1718,1046",
+                "--pagenum=248",
+                "--outdir=scanned",
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
